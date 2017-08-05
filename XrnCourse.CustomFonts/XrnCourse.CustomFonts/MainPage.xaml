@@ -4,8 +4,17 @@
              xmlns:local="clr-namespace:XrnCourse.CustomFonts"
              x:Class="XrnCourse.CustomFonts.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Label Text="Insert Coin" 
+            HorizontalTextAlignment="Center"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center">
+        <Label.FontFamily>
+            <OnPlatform x:TypeArguments="x:String">
+                <On Platform="iOS">Press Start 2P</On>
+                <On Platform="Android">PressStart2P-Regular.ttf#Press Start 2P</On>
+                <On Platform="Windows">/Assets/Fonts/PressStart2P-Regular.ttf#Press Start 2P</On>
+            </OnPlatform>
+        </Label.FontFamily>
+    </Label>
 
 </ContentPage>
