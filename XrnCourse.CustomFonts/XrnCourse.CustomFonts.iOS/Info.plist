@@ -48,5 +48,9 @@
     </array>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>
+	<key>UIAppFonts</key>
+	<array>
+	  <string>Fonts/PressStart2P-Regular.ttf</string>
+	</array>
   </dict>
 </plist>
